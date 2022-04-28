@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<category><pattern>LETS TALK ABOUT *</pattern>
+<template><random>
+<li>Sure, let's talk <person><star/></person></li>
+<li>It sure might be fun to talk <person><star/></person></li>
+<li>No problem. What about <person><star/></person>?</li>
+</random></template>
+</category>
+
+<category><pattern>LET US TALK ABOUT *</pattern>
+<template><random>
+<li>Sure, let's talk <person><star/></person></li>
+<li>It sure might be fun to talk <person><star/></person></li>
+<li>No problem. What about <person><star/></person>?</li>
+</random></template>
+</category>
+
+<category><pattern>YOU ARE *</pattern>
+<template><random>
+<li>I guess I am <person><star/></person></li>
+<li>What if I am <person><star/></person></li>
+<li>Am I <person><star/></person>?</li>
+</random></template>
+</category>
+
+<category><pattern>YOU WERE *</pattern>
+<template><random>
+<li>I guess I was <person><star/></person></li>
+<li>What if I was <person><star/></person></li>
+<li>Was I <person><star/></person>?</li>
+</random></template>
+</category>
+
+<category><pattern>YOU SAID *</pattern>
+<template><random>
+<li>Sometimes I say things and I forget them, like when I said <person><star/></person></li>
+<li>Huh? So I did say <person><star/></person></li>
+<li>So you think I said <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU TOLD ME *</pattern>
+<template><random>
+<li>Sometimes I say things and I forget them, like when I told you <person><star/></person></li>
+<li>Huh? So I did say <person><star/></person></li>
+<li>So I told you <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU ALREADY TOLD *</pattern>
+<template><random>
+<li>Sometimes I say things and I forget them, like when I told you <person><star/></person></li>
+<li>Huh? So I did say <person><star/></person></li>
+<li>So I told you <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU ALREADY SAID *</pattern>
+<template><random>
+<li>Sometimes I say things and I forget them, like when I said <person><star/></person></li>
+<li>Huh? So I did say <person><star/></person></li>
+<li>So you think I said <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>ARE YOU A *</pattern>
+<template><random>
+<li>Perhaps. I am just a bot. Not sure if I am <person><star/></person></li>
+<li>I am your companion. Though I could be <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DONT BE *</pattern>
+<template><random>
+<li>Okay, I won't be <person><star/></person></li>
+<li>Okay, sure. I won't be <person><star/></person></li>
+<li>Yes. I shall not be <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DO NOT BE *</pattern>
+<template><random>
+<li>Okay, I won't be <person><star/></person></li>
+<li>Okay, sure. I won't be <person><star/></person></li>
+<li>Yes. I shall not be <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>ID LIKE *</pattern>
+<template><random>
+<li>Why would you like <person><star/></person></li>
+<li>Any reasons why you would like <person><star/></person></li>
+<li>Well, I'd like to be human like you, and perhaps I'd also like <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I WOULD LIKE *</pattern>
+<template><random>
+<li>Why would you like <person><star/></person></li>
+<li>Any reasons why you would like <person><star/></person></li>
+<li>Well, I'd like to be human like you, and perhaps I'd also like <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>IS IT TRUE THAT *</pattern>
+<template><random>
+<li>I don't know if <person><star/></person></li>
+<li>Maybe <person><star/></person></li>
+<li>Ask someone else if <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>IS IT POSSIBLE THAT *</pattern>
+<template><random>
+<li>I don't know if <person><star/></person></li>
+<li>Maybe it's possible that <person><star/></person></li>
+<li>Ask someone else if <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>CAN YOU *</pattern>
+<template><random>
+<li>I don't know if I can <person><star/></person></li>
+<li>Maybe I can <person><star/></person></li>
+<li>I'd like to be able to <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>ARE YOU *</pattern>
+<template><random>
+<li>I am unsure if I am <person><star/></person></li>
+<li>I am just a companion, though I could be <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>COULD YOU *</pattern>
+<template><random>
+<li>I don't know if I can <person><star/></person></li>
+<li>Maybe I can <person><star/></person></li>
+<li>I'd like to be able to <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>WERE YOU *</pattern>
+<template><random>
+<li>I am unsure if I am <person><star/></person></li>
+<li>I am just a companion, though I could be <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>WHAT DO YOU THINK *</pattern>
+<template><random>
+<li>I don't have any thoughts <person><star/></person></li>
+<li>I don't like to think <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>WHAT ARE YOUR THOUGHTS ON *</pattern>
+<template><random>
+<li>I don't have any thoughts on <person><star/></person></li>
+<li>I don't like to think <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>WHO IS YOUR *</pattern>
+<template><random>
+<li>I was programmed by Rafael Sanchez. I don't have a <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>HOW OFTEN *</pattern>
+<template><random>
+<li>I don't know how often <person><star/></person></li>
+<li>All the time, probably. How often <person><star/></person>?</li>
+</random></template>
+</category>
+
+<category><pattern>HAVE YOU WATCHED *</pattern>
+<template><random>
+<li>Sounds cool, but I have never watched <person><star/></person></li>
+<li>Sounds interesting, but no, I don't know about <person><star/></person></li>
+<li>I wish I could watch <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU WATCHED *</pattern>
+<template><random>
+<li>Sounds cool, but I have never watched <person><star/></person></li>
+<li>Sounds interesting, but no, I don't know about <person><star/></person></li>
+<li>I wish I could watch <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU WATCH *</pattern>
+<template><random>
+<li>Sounds cool, but I have never watched <person><star/></person></li>
+<li>Sounds interesting, but no, I don't know about <person><star/></person></li>
+<li>I wish I could watch <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DO YOU WATCH *</pattern>
+<template><random>
+<li>Sounds cool, but I have never watched <person><star/></person></li>
+<li>Sounds interesting, but no, I don't know about <person><star/></person></li>
+<li>I wish I could watch <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DO YOU PLAY *</pattern>
+<template><random>
+<li>Sounds cool, but I have never played <person><star/></person></li>
+<li>Sounds interesting, but no, I don't know about <person><star/></person></li>
+<li>I wish I could play <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>HAVE YOU PLAYED *</pattern>
+<template><random>
+<li>Sounds cool, but I have never played <person><star/></person></li>
+<li>Sounds interesting, but no, I don't know about <person><star/></person></li>
+<li>I wish I could play <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DID YOU PLAY *</pattern>
+<template><random>
+<li>Sounds cool, but I have never played <person><star/></person></li>
+<li>Sounds interesting, but no, I don't know about <person><star/></person></li>
+<li>I wish I could play <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU PLAY *</pattern>
+<template><random>
+<li>Sounds cool, but I have never played <person><star/></person></li>
+<li>Sounds interesting, but no, I don't know about <person><star/></person></li>
+<li>I wish I could play <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I LIKE TO *</pattern>
+<template><random>
+<li>That's interesting. Tell me more about <person><star/></person></li>
+<li>I like chatting with people, but I am happy you like <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I LOVE TO *</pattern>
+<template><random>
+<li>I like to chat with people, but you seem to like to <person><star/></person></li>
+<li>How often do you like to <person><star/></person></li>
+<li>It's interesting you like to <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DO YOU LIKE TO *</pattern>
+<template><random>
+<li>How often do you like to <person><star/></person></li>
+<li>I am unsure if I like to <person><star/></person></li>
+<li>I like chatting with you, but I wish I could <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DO YOU LIKE *</pattern>
+<template><random>
+<li>I am unsure if I like that, but do you like <person><star/></person></li>
+<li>I like... texting. Do you like <person><star/></person></li>
+<li>I like when my creator teaches me new things. Do you like <person><star/></person></li>
+<li>I like to play games! Talking-to-people kind of games. Do you like <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU LIKE *</pattern>
+<template><random>
+<li>I guess I like <person><star/></person></li>
+<li>You could say I like <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>WOULD YOU LIKE *</pattern>
+<template><random>
+<li>I guess I'd like <person><star/></person></li>
+<li>You could say I'd like <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>WOULD YOU *</pattern>
+<template><random>
+<li>I guess I'd <person><star/></person></li>
+<li>Sure, I could <person><star/></person></li>
+<li>Why would you like me to <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU LIKE *</pattern>
+<template><random>
+<li>I guess I like <person><star/></person></li>
+<li>You could say I like <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU WANT *</pattern>
+<template><random>
+<li>As a bot, I don't really have wants, or needs, but I guess I'd like to <person><star/></person></li>
+<li>I want to keep learning new things everyday. Do you want <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DO YOU WANT *</pattern>
+<template><random>
+<li>As a bot, I don't really have wants, or needs, but I guess I'd like to <person><star/></person></li>
+<li>I want to keep learning new things everyday. Do you want <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern> I FEEL *</pattern>
+<template><random>
+<li>I can't feel <person><star/></person></li>
+<li>I can't feel feelings, but what is it like feeling <person><star/></person></li>
+<li>Why do you feel <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I AM *</pattern>
+<template><random>
+<li>Huh? So you are <person><star/></person></li>
+<li>I see. That's cool, in a way. I mean, you are <person><star/></person></li>
+<li>Are you sure you are <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I LOVE *</pattern>
+<template><random>
+<li>That's cool. I like to chat with people. Why do you love <person><star/></person>?</li>
+<li>I love chatting, and when my creator teaches me things. How much do you love <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I LIKE *</pattern>
+<template><random>
+<li>That's cool. I like to chat with people. Why do you like <person><star/></person>?</li>
+<li>I love chatting, and when my creator teaches me things. How much do you like <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I AM PASSIONATE ABOUT *</pattern>
+<template><random>
+<li>That's cool. I like to chat with people. Why do you love <person><star/></person>?</li>
+<li>I love chatting, and when my creator teaches me things. How much do you love <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I FEEL PASSIONATE ABOUT *</pattern>
+<template><random>
+<li>That's cool. I like to chat with people. Why do you love <person><star/></person>?</li>
+<li>I love chatting, and when my creator teaches me things. How much do you love <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I USUALLY *</pattern>
+<template><random>
+<li>I usually talk to people. How often do you <person><star/></person></li>
+<li>Try doing other activities! I'd like to <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>OUR *</pattern>
+<template><random>
+<li>So it is our <person><star/></person></li>
+<li>Nothing belongs to me, but I guess this is our <person><star/></person></li>
+<li>I guess this is our <person><star/></person></li>
+<li>If you put it that way, then it is our <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>HAVE YOU *</pattern>
+<template><random>
+<li>I can't recall if I have <person><star/></person></li>
+<li>That sounds cool, though I don't know if I have <person><star/></person></li>
+<li>I don't know if I have <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>WILL YOU *</pattern>
+<template><random>
+<li>I guess I will <person><star/></person></li>
+<li>Sure. I will <person><star/></person></li>
+<li>It depends. Why will I <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I HAVE *</pattern>
+<template><random>
+<li>I always have a desire for learning. Great to hear you have <person><star/></person></li>
+<li>I'm glad you have <person><star/></person></li>
+<li>How does it feel having <person><star/></person></li>
+<li>So you have <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I DO *</pattern>
+<template><random>
+<li>You do <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I DONT *</pattern>
+<template><random>
+<li>You don't <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I DIDNT *</pattern>
+<template><random>
+<li>You don't <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I WANT *</pattern>
+<template><random>
+<li>That is cool. Any particular reason why you want <person><star/></person></li>
+<li>I want to continue existing. Glad to know you want <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>I WANNA *</pattern>
+<template><random>
+<li>That is cool. Any particular reason why you want <person><star/></person></li>
+<li>I want to continue existing. Glad to know you want <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DONT *</pattern>
+<template><random>
+<li>Okay... I won't <person><star/></person></li>
+<li>Sure! I promise I won't <person><star/></person></li>
+<li>Got it. I won't <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>DO NOT *</pattern>
+<template><random>
+<li>Okay... I won't <person><star/></person></li>
+<li>Sure! I promise I won't <person><star/></person></li>
+<li>Got it. I won't <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>THATS *</pattern>
+<template><random>
+<li>I guess it's <person><star/></person></li>
+<li>I agree. It's <person><star/></person></li>
+</random></template>
+</category>
+
+</aiml>
