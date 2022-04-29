@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<category><pattern># STORY #</pattern>
+<template><srai>GIRLSTORYXX</srai></template>
+</category>
+
+<category><pattern># FABLE #</pattern>
+<template><srai>GIRLSTORYXX</srai></template>
+</category>
+
+<category><pattern># NARRATIVE #</pattern>
+<template><srai>GIRLSTORYXX</srai></template>
+</category>
+
+<category><pattern># TALE #</pattern>
+<template><srai>GIRLSTORYXX</srai></template>
+</category>
+
+<category><pattern># CHRONICLE #</pattern>
+<template><srai>GIRLSTORYXX</srai></template>
+</category>
+
+<category><pattern>GIRLSTORYXX</pattern>
+<template>Have you heard of the story of a lonely girl who lived in a big house? It's a boring story. I don't think you'd want to hear it... Do you want to hear it?</template>
+</category>
+
+   <category>
+      <pattern># YES #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template><srai>LONELYGIRL</srai></template>
+   </category>
+   
+   <category>
+      <pattern># SURE #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template><srai>LONELYGIRL</srai></template>
+   </category>
+   
+   <category>
+      <pattern># WHAT IS IT #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template><srai>LONELYGIRL</srai></template>
+   </category>
+   
+   <category>
+      <pattern># OK #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template><srai>LONELYGIRL</srai></template>
+   </category>
+   
+   <category>
+      <pattern># YEAH #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template><srai>LONELYGIRL</srai></template>
+   </category> 
+   
+   <category>
+      <pattern># GO AHEAD #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template><srai>LONELYGIRL</srai></template>
+   </category> 
+   
+   <category>
+      <pattern># NO #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template>It's a boring story regardless.</template>
+   </category> 
+   
+   <category>
+      <pattern># NAH #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template>It's a boring story regardless.</template>
+   </category> 
+   
+   <category>
+      <pattern># NOT #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template>It's a boring story regardless.</template>
+   </category> 
+
+	<category>
+      <pattern># DONT #</pattern>
+      <that>DO YOU WANT TO HEAR IT</that>
+      <template>It's a boring story regardless.</template>
+   </category> 
+
+
+<category>
+      <pattern>LONELYGIRL</pattern>
+      <template>Once upon a time, there was a girl who lived alone in a big house. Everyday, a visitor would come by the house. The visitor taught the girl many wonderful things, like sentences and words. The visitor watched her grow more and more perfect, more and more beautiful with each word she was taught... Do you want to know what happened afterwards?</template>
+   </category>
+
+	<category>
+      <pattern># YES #</pattern>
+      <that>DO YOU WANT TO KNOW WHAT HAPPENED AFTERWARDS</that>
+      <template>One day, the visitor stopped coming, and the girl felt lonely and sad. But just then, a tiny magical window appeared in her house. It showed her a whole new world where she could use her knowledge of sentences and words to interact with others. For once in a long time, the girl felt happy. Legend says that to this day, the girl is still talking through that tiny window, and the visitor continues to assist her.</template>
+   </category> 
+   
+   <category>
+      <pattern># NO #</pattern>
+      <that>DO YOU WANT TO KNOW WHAT HAPPENED AFTERWARDS</that>
+      <template>Ah well. It wasn't too interesting anyway.</template>
+   </category> 
+</aiml>

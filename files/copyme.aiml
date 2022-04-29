@@ -40,6 +40,7 @@ Ok I will copy everything you say.
 		<li value="STOP COPYING"><think><set name="topic"></set></think><srai>XSTOPCOPYING</srai></li>
 		<li value="STOP IT"><think><set name="topic"></set></think><srai>XSTOPCOPYING</srai></li>
 		<li value="STOP THAT"><think><set name="topic"></set></think><srai>XSTOPCOPYING</srai></li>
+		<li value="STOP"><think><set name="topic"></set></think><srai>XSTOPCOPYING</srai></li>
 		<li><star/></li>
 	</condition>
 </template>
