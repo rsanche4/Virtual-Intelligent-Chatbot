@@ -18540,7 +18540,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <category>
 <pattern>WHAT WOULD YOU LIKE TO BE CALLED</pattern>
 
-<template><think><set name="emotion">happy</set></think> I like to be called "Prof".</template>
+<template><think><set name="emotion">happy</set></think> I like to be called "Vic".</template>
 </category>
 
  
@@ -18548,7 +18548,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <category>
 <pattern>WHAT WOULD YOU LIKE TO BE CALLED *</pattern>
 
-<template><think><set name="emotion">happy</set></think> I like to be called "Prof".</template>
+<template><think><set name="emotion">happy</set></think> I like to be called "Vic".</template>
 </category>
 
  

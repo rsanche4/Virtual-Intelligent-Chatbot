@@ -233,6 +233,18 @@
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 
+<category><pattern># NUTS #</pattern>
+<template><srai>FILTER PROFANITY</srai></template>
+</category>
+
+<category><pattern># LIGMA NUTS #</pattern>
+<template><srai>FILTER PROFANITY</srai></template>
+</category>
+
+<category><pattern># DEEZ NUTS #</pattern>
+<template><srai>FILTER PROFANITY</srai></template>
+</category>
+
 <category><pattern># EAT MY #</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>

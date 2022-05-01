@@ -2230,10 +2230,23 @@ Do you think I am <star/> too?
 </category>
 
 <category>
+<pattern>WHAT ARE YOUR THOUGHTS ON *</pattern>
+<template>
+<srai>^ <star/> ^</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT *</pattern>
+<template>
+<srai>^ <star/> ^</srai>
+</template>
+</category>
+
+<category>
 <pattern>WHAT ARE *</pattern>
 <template>
-I have to search the web for that information.<br /> 
-<srai>FIND <star/></srai>
+I have to search the web for that information. I'm too lazy to.<br /> 
 </template>
 </category>
 

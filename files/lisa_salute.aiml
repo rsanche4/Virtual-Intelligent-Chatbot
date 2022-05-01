@@ -127,12 +127,11 @@
 <li>Welcome!</li>
 <li>Hellooo.</li>
 <li>Hi there.</li>
-</random> What's your name?</template>
+</random></template>
 </category>
 
 <category>
-<pattern>*</pattern>
-<that>WHAT IS YOUR NAME</that>
+<pattern>WHAT IS YOUR NAME</pattern>
 <template>Nice to meet you, <set name="name"><formal><star/></formal></set></template>
 </category>
 
