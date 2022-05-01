@@ -3,16 +3,16 @@
 
 <category><pattern>LETS TALK ABOUT *</pattern>
 <template><random>
-<li>Sure, let's talk <person><star/></person></li>
-<li>It sure might be fun to talk <person><star/></person></li>
+<li>Sure, let's talk about <person><star/></person></li>
+<li>It sure might be fun to talk about <person><star/></person></li>
 <li>No problem. What about <person><star/></person>?</li>
 </random></template>
 </category>
 
 <category><pattern>LET US TALK ABOUT *</pattern>
 <template><random>
-<li>Sure, let's talk <person><star/></person></li>
-<li>It sure might be fun to talk <person><star/></person></li>
+<li>Sure, let's talk about <person><star/></person></li>
+<li>It sure might be fun to talk about <person><star/></person></li>
 <li>No problem. What about <person><star/></person>?</li>
 </random></template>
 </category>
@@ -430,6 +430,14 @@
 <template><random>
 <li>That is cool. Any particular reason why you want <person><star/></person></li>
 <li>I want to continue existing. Glad to know you want <person><star/></person></li>
+</random></template>
+</category>
+
+<category><pattern>YOU DONT *</pattern>
+<template><random>
+<li>I guess I don't <person><star/></person></li>
+<li>Sure! I promise I won't <person><star/></person></li>
+<li>Got it. I won't <person><star/></person></li>
 </random></template>
 </category>
 

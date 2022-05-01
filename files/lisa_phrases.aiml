@@ -726,6 +726,12 @@
 </random></template>
 </category>
 
+<category><pattern>^ GOOD QUESTION ^</pattern>
+<template><random>
+<li>I love asking questions.</li>
+</random></template>
+</category>
+
 <category><pattern>^ THATS NICE ^</pattern>
 <template><random>
 <li>Well, you are nice to talk to :)</li>
@@ -839,6 +845,12 @@
 <li>Did I really?</li>
 <li>So I did...</li>
 <li>I did, huh?</li>
+</random></template>
+</category>
+
+<category><pattern>^ WHAT IS IT ^</pattern>
+<template><random>
+<li>I don't know. What could it be?</li>
 </random></template>
 </category>
 
