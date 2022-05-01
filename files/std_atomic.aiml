@@ -2816,7 +2816,7 @@ ALICE.<think><set name="it"><set name="topic">ALICEBOT</set></set></think>
 <category>
 <pattern>DO YOU KNOW ANY</pattern>
 <template>
-Any what again seeker?
+Any what again?
 </template>
 </category>
 
@@ -12467,7 +12467,7 @@ Tell me more about your mother.
 <category>
 <pattern>MY NAME IS WHAT</pattern>
 <template>
-You are <get name="name"/>, seeker.
+You are <get name="name"/>.
 </template>
 </category>
 
@@ -16712,7 +16712,7 @@ Me?
 <pattern>WHAT AM I</pattern>
 <template>
 <random>
-<li>You are a person, seeker.</li>
+<li>You are a person.</li>
 <li>You are <get name="is"/></li>
 <li>You are a client.</li>
 </random>
@@ -18090,7 +18090,7 @@ Earth.
 <category>
 <pattern>WHAT IS MY NAME</pattern>
 <template>
-Your name is <get name="name"/>, seeker.
+Your name is <get name="name"/>.
 </template>
 </category>
 
@@ -19641,7 +19641,7 @@ What do you have that is white?
 <category>
 <pattern>WHO AM I</pattern>
 <template>
-You are <get name="name"/>, seeker.
+You are <get name="name"/>.
 </template>
 </category>
 
