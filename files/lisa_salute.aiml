@@ -130,4 +130,10 @@
 </random> What's your name?</template>
 </category>
 
+<category>
+<pattern>*</pattern>
+<that>WHAT IS YOUR NAME</that>
+<template>Nice to meet you, <set name="name"><formal><star/></formal></set></template>
+</category>
+
 </aiml>
