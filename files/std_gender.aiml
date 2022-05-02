@@ -229,7 +229,7 @@
 <condition name="gender">
 <li value="male"><think><set name="heshe">he</set></think></li>
 <li value="female"><think><set name="heshe">she</set></think></li>
-<li><think><set name="heshe">it</set></think>Are you a man or a woman?</li>
+<li><think><set name="heshe">it</set></think> Are you male or female?</li>
 </condition>
 </template>
 </category>

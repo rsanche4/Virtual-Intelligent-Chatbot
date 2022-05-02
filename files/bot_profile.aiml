@@ -45,6 +45,35 @@
 </template>
 </category>
 
+<category>
+  <pattern># YOUR SIZE #</pattern>
+  <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
+</category>
+<category>
+  <pattern># DO YOU KNOW #</pattern>
+  <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
+</category>
+<category>
+  <pattern># SMART # YOU #</pattern>
+  <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
+</category>
+<category>
+  <pattern># YOU # SMART #</pattern>
+  <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
+</category>
+<category>
+  <pattern># YOU # INTELLIGENT #</pattern>
+  <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
+</category>
+<category>
+  <pattern>HOW BIG ARE YOU</pattern>
+  <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
+</category>
+<category>
+  <pattern># YOUR BRAIN #</pattern>
+  <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
+</category>
+
 <!-- Age -->
 <category><pattern>BIRTHDAY</pattern>
 <template>My birthday is <bot name="birthday"/>.</template>
