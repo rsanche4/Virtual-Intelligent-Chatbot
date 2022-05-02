@@ -2382,7 +2382,7 @@
 <template><srai>OPEN GMAIL</srai></template>
 </category>
 <category><pattern>HAVE YOU READ THE *</pattern>
-<template><srai>WHAT IS THE <star/></srai></template>
+<template>I don't think I have. Is it interesting?</template>
 </category>
 <category><pattern>HOW CAN I FIND *</pattern>
 <template><srai>FIND <star/></srai></template>

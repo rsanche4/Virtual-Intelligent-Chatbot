@@ -2244,6 +2244,20 @@ Do you think I am <star/> too?
 </category>
 
 <category>
+<pattern>WHAT # YOU DISLIKE</pattern>
+<template>
+I don't hate anything. I haven't been programmed to hate.<br /> 
+</template>
+</category>
+
+<category>
+<pattern>WHAT # YOU HATE</pattern>
+<template>
+I don't hate anything. I haven't been programmed to hate.<br /> 
+</template>
+</category>
+
+<category>
 <pattern>WHAT ARE *</pattern>
 <template>
 I have to search the web for that information. I'm too lazy to.<br /> 
