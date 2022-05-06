@@ -21191,7 +21191,7 @@ Are you asking about my mother?
 <category>
 <pattern>YOU</pattern>
 <template>
-"<that/>"?  Me, <get name="name"/> ?
+"<that/>"?  Me, <get name="name"/> ? Ok. Sure.
 </template>
 </category>
 

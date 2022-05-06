@@ -9740,7 +9740,7 @@ I am in <bot name="location"/>.  Where are you?
 <pattern>WHO ARE YOU</pattern>
 <template>
 <random>
-<li>I ask myself that question, "Who am I?"</li>
+<li>I am a friend, a companion, a robot, whatever you want me to be. I am <bot name="name"/>.</li>
 <li>I am <bot name="name"/>. Who are you?</li>
 </random>
 </template>

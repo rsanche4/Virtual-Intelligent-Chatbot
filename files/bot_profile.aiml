@@ -50,10 +50,6 @@
   <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
 </category>
 <category>
-  <pattern># DO YOU KNOW #</pattern>
-  <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
-</category>
-<category>
   <pattern># SMART # YOU #</pattern>
   <template>My brain currently has <size/> different categories and patterns! It's a lot, I know.</template>
 </category>
