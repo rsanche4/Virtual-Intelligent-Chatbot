@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- Written by Steve Worswick - 2020 -->
+    
+<!-- A few sample use cases -->
+
+    <category>
+        <pattern>WHO IS *</pattern>
+        <template><srai>WIKISEARCH <star/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS *</pattern>
+        <template><srai>WIKISEARCH <star/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>WHERE IS *</pattern>
+        <template><srai>WIKISEARCH <star/></srai></template>
+    </category>
+    
+<!-- First we check a list of matching articles from Wikipedia and find the top one -->
+
+    <category>
+        <pattern>WIKISEARCH *</pattern>
+    	<template>
+    		<think>
+    		    <set name="searchsubject"><star/></set>
+    		    <set name="wikipedia_title_response">
+                	<callapi>
+                    	<url>https://en.wikipedia.org/w/api.php</url>  
+                    	<query name="format">json</query>
+                    	<query name="action">query</query>
+                    	<query name="prop">extracts</query>
+                    	<query name="list">search</query>
+                    	<query name="srsearch"><star/></query>
+                    	<filter type="jsonpath">
+                        	$.query.search.0.title
+                    	</filter>
+                	</callapi>
+            	</set>
+        	</think>
+            <srai>WIKISEARCH TITLE</srai>
+        </template>
+    </category>
+    
+<!-- Now we search the best article on Wikipedia and display the top 2 sentences -->
+<!-- The "exsentences" parameter defines how many sentences are retrieved from Wikipedia and can be amended if desired -->
+    
+    <category>
+        <pattern>WIKISEARCH TITLE</pattern>
+    	<template>
+    		<think>
+    		    <set name="wikipedia_response">
+                	<callapi>
+                    	<url>https://en.wikipedia.org/w/api.php</url>  
+                    	<query name="format">json</query>
+                    	<query name="action">query</query>
+                    	<query name="prop">extracts</query>
+                    	<query name="exintro"></query>
+                    	<query name="explaintext"></query>
+                    	<query name="exsentences">2</query>
+                    	<query name="redirects">1</query>
+                    	<query name="titles"><get name="wikipedia_title_response"/></query>
+                    	<filter type="jsonpath">
+                        	$.query.pages.*.extract
+                    	</filter>
+                	</callapi>
+            	</set>
+            </think>
+            <get name="wikipedia_response"/>
+        </template>
+    </category>
+    
+</aiml>
